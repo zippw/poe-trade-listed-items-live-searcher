@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "d": "nodemon ./src/index.ts",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "cron": "^3.5.0",
+    "dotenv": "^16.4.7"
+  }
+}

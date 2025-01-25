@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es2022",                      // Используйте ES2022 или выше, чтобы соответствовать Node.js 18
+        "lib": ["es2022"],                      // Укажите стандарт ES2022 или выше
+        "module": "nodenext",                   // Совместимо с Node.js ECMAScript модулями
+        "moduleResolution": "nodenext",         // Разрешение модулей для Node.js
+        "resolveJsonModule": true,              // Поддержка импорта JSON
+        "types": ["node"],                      // Загрузка типов для Node.js
+        "strict": true,                         // Включить строгий режим TypeScript
+        "isolatedModules": false,               // Оставьте false, если используете TypeScript с CommonJS
+        "esModuleInterop": true,                // Для совместимости с CommonJS
+        "outDir": "./dist",                     // Укажите директорию для выходных файлов
+        "rootDir": "./src"                      // Укажите корневую директорию исходников
+    }
+}
